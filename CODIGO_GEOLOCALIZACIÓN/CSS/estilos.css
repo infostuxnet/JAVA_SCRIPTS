@@ -1,0 +1,846 @@
+/*div{
+    -moz-transition: all .3s ease-in-out !important;
+    -webkit-transition: all .3s ease-in-out !important;
+    -o-transition: all .3s ease-in-out !important;
+    transition: all .3s ease-in-out !important;
+}*/
+
+
+
+h4, .h4 {
+    color: #ce006f;
+    font-weight: 600; 
+}
+
+
+.list-group-menu{
+    color: #2373bd;
+    text-decoration: none;
+}
+.list-group-menu a{
+    color: #2373bd;
+}
+.list-group-menu li{
+    list-style-type: none !important;
+}
+
+img.img-cab-int {
+    min-height: 100px !important;
+    max-height: 600px !important;
+}
+
+h1.tit-interior{
+    font-weight: bold;
+    color: #d71a90;
+    /*    text-transform: capitalize !important;*/
+    border-bottom: #bdbdbd dotted 1px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.subtit-interior{
+    font-weight: bold;
+    color: #d71a90;
+    /*    text-transform: capitalize !important;
+    border-bottom: #bdbdbd dotted 1px;*/
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+}
+h2.subtit-interior{
+    color: #0277BD;
+    font-size: 1.92em;
+    font-weight: normal;
+    padding: 25px 0;
+    margin-bottom: 0;
+}
+h2.subtit-interior small{
+    font-size: .5em;
+    font-weight: normal;
+    color: #039BE5;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+}
+.cont-interior{
+    color: #6b6b6b !important;
+    line-height: 2em !important;
+    margin-bottom: 50px;
+}
+.bg-franja-blanca{
+    background-color: #fff;
+    height: 15px;
+}
+.bg-interior{
+    background-image: url(../images_/bg-cont-interior.png) !important;
+    background-position: 50% 0;
+    background-repeat: repeat-y;
+}
+
+.bg-cabecera-sup{
+    background-color: #f5f5f6;border-bottom: solid 1px; border-color:#dcdcdc; padding: 0;
+}
+
+.bg-gris{
+    background-color: #f4f4f4;
+}
+
+/*
+.bg-btn-home, .bg-btn-39, .bg-btn-62, .bg-btn-77, .bg-btn-98, .bg-btn-137, .bg-btn-aprendiendo{
+    background-repeat: no-repeat !important;
+    background-position: 50% 15px !important;
+    background-repeat: no-repeat !important;
+    min-width: 100px !important;
+    text-align: center !important;
+}
+*/.bg-btn-home{
+    background-image: url(../images_/ico-home.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 15px !important;
+    background-repeat: no-repeat !important;
+    min-width: 62px !important;
+    text-align: center !important;
+}/*
+.bg-btn-39{
+    background-image: url(../images_/ico-tiempo-agua.png) !important;
+}
+.bg-btn-62{
+    background-image: url(../images_/ico-clima.png) !important;
+}
+.bg-btn-77{
+    background-image: url(../images_/ico-herramientas.png) !important;
+}
+.bg-btn-98{
+    background-image: url(../images_/ico-ciudadano.png) !important;
+}
+.bg-btn-137{
+    background-image: url(../images_/ico-senamhi.png) !important;
+}
+.bg-btn-aprendiendo{
+    background-image: url(../images_/ico-empleo.png) !important;
+}
+*/
+
+
+.btn-ico-trans{
+    background-image: url(../images_/ico-lupa-carta.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-left: 28px;
+    margin-right: 20px;
+}
+
+.btn-ico-conta{
+    background-image: url(../images_/ico-lupa-carta.png);
+    background-repeat: no-repeat;
+    background-position: 0 -18px;
+    padding-left: 28px;
+    margin-right: 20px;
+}
+
+.btn-pronostico{
+    text-align: right !important;
+    margin:20px 15px 10px 0 !important;
+}
+
+.cabecera{
+    margin-top: 15px; margin-bottom: 15px
+}
+.cabecera-der{
+    padding: 14px 0;
+    margin: 0;
+}
+.cabecera-der span{
+    /*    padding: 17px 0;
+        border-left: solid 1px; border-color:#dcdcdc; */
+}
+.cabecera-izq{
+    padding: 12px 0;
+    margin: 0;
+}
+.cabecera img{
+    margin: 5px;    
+}
+.cabecera-sup img{
+    /*    padding: 12px 0;
+        border-left: solid 1px; border-color:#dcdcdc;*/
+    padding: 0 10px;
+}
+
+.cabecera-interior img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.cabecera-trans{
+    text-align: right; font-size: .87em;
+}
+
+/* NOTICIAS CONTENT
+-------------------------------------------------- */
+
+/* Implementaciones para auspiciadrores */
+.noticias .col-lg-12 {
+    margin: 20px 0;
+    text-align: center;
+}
+.noticias h2 {
+    font-weight: normal;
+}
+.noticias .col-lg-12 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.noticias img{
+    margin:0;
+}
+.noticias-bg{
+    /*background: #81D4FA; padding: 25px 0;*/
+    background: #CAE6F3; padding: 25px 0;
+}
+
+
+/* SPONSOR CONTENT
+-------------------------------------------------- */
+/* Implementaciones para auspiciadrores */
+.sponsor .col-lg-12 {
+    margin: 20px 0;
+    text-align: center;
+}
+.sponsor h2 {
+    font-weight: normal;
+}
+.sponsor .col-lg-12 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.sponsor img{
+    margin:5px 15px;
+    max-width: 190px;
+    max-height: 80px;
+}
+.sponsor .continer-img{
+    padding: 25px 10px;
+}
+.sponsor-bg{
+    background: #bad6e8; padding: 35px 0;
+}
+
+
+/* PUBLICIDAD
+-------------------------------------------------- */
+/* Implementaciones para auspiciadrores */
+.publicidad .col-lg-12 {
+    margin: 15px 0;
+    text-align: center;
+}
+.publicidad h2 {
+    font-weight: normal;
+}
+.publicidad .col-lg-12 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.publicidad img{
+    margin:5px 15px;
+    max-width: 300px;
+    max-height: 120px;
+}
+.publicidad .continer-img{
+    padding: 25px 10px;
+}
+.publicidad-bg{
+    background: #EDEDED; padding: 45px 0; margin-top: 40px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Implementaciones para marketing */
+.marketing {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.marketing .col-lg-3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-3 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* INSTITUCIONAL CONTENT
+-------------------------------------------------- */
+/* Implementaciones para el ciudadano */
+.institucional .col-lg-3 {
+    margin-bottom: 20px;
+}
+.institucional h2 {
+    font-weight: normal;
+}
+.institucional .col-lg-3 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* FOOTER CONTENT
+-------------------------------------------------- */
+/* Implementaciones para el ciudadano */
+.footer-bg{
+    background-color: #004d94;
+}
+footer .col-lg-3 {
+    margin-bottom: 20px;
+}
+footer h2 {
+    font-weight: normal;
+}
+footer .line{ border-left: 1px solid #2373bd; padding-left: 30px; }
+footer img.logo-senamhi{ width: 100%; padding: 30px;}
+footer .col-lg-3 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+footer { color: #bad6e8;}
+footer span{ color: #fff;}
+footer a{ color: #fff;}
+footer a:hover{ color: #bad6e8; text-decoration: underline;}
+footer a:active{ color: #bad6e8; text-decoration: underline;}
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+.ico-circle-bg{
+    background-color: #ddd;
+    /*    border-radius: 50%;*/
+    height: 117px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 117px;
+}
+
+.ico-circle{
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    height: 117px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 117px;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+}
+.ico-circle:hover{
+    /*    background: #ddd !important;*/
+    color: #000;
+    transform: scale(0.8) /*rotate(365deg) translate(20px, 10px)*/;
+    -webkit-transform: scale(0.8) /*rotate(365deg) translate(20px, 10px)*/;
+}
+.ico-circle:nth-child(even){
+    /*	background: #AC2800;*/
+}
+.ico-tiempo{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-tiempo-actual.png");
+}
+.ico-clima{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-climatico.png");
+}
+.ico-rios{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-rios.png");
+}
+.ico-agro{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-agro.png");
+}
+.ico-ruv{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-radiacion.png");
+}
+.ico-elnino{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-elninio.png");
+}
+.ico-satel{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-satelite.png");
+}
+.ico-bdata{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-basedatos.png");
+}
+
+.ico-square{
+    min-height: 80px;
+    background-color: #fff;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #fff;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+.ico-square a{   color: #fff;}
+.ico-square a:hover{   color: #ddd;}
+.bg-ico-inst{
+    text-align: left;
+    padding-left: 75px;
+    padding-top: 19px;
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+
+.ico-verinfo{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-verinfo.png");
+}
+
+.ico-empleo{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-empleo.png");
+}
+
+.ico-reclamaciones{
+    background-color: #5597d4;
+    background-image: url("../images_/ico-libro.png");
+}
+
+
+
+.colores img {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: none;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.colores img:hover {
+    filter: url('#grayscale'); /* VersiÃ³n SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%); /* Para cuando es estÃ¡ndar funcione en todos */
+    filter: Gray(); /* IE4-8 and 9 */
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+
+.grises img {
+    filter: url('#grayscale'); /* VersiÃ³n SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%); /* Para cuando es estÃ¡ndar funcione en todos */
+    filter: Gray(); /* IE4-8 and 9 */
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.grises img:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: none;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#slider-fotos{
+
+}
+
+.slider-bg{
+    background-color: #000;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+
+.slider{
+    /*    background: rgba(0, 0, 0, 0.65); height: 100%; width: 50%; text-align: right; display: inline-block; color: #fff;*/
+    background: rgba(0, 54, 110, 0.75); height: 100%; color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.slider h2{
+    font-size: 1.5em;
+}
+.slider .header{
+    background: rgba(91, 192, 222, 0.9); width: 100%; color: #fff;
+    font-size: 1.2em;
+    margin: 5px 0 0 0;
+    padding: 5px 2px;
+}
+.slider .red, .slider .blue{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.slider .red{
+    color: #f5d5d5;
+}
+.slider .blue{
+    color: #cef0fd;
+}
+.slider .info{
+    display: none;
+    font-size: .8em;
+}
+.slider-temp{
+    font-weight: bold;
+}
+.slider-temp span, .slider-temp img{
+    display: inline-block;
+    font-size: 4.2em;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+
+.slider-row{
+    display: inline-block; width: 24%; vertical-align: top; text-align: center;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.slider-row{
+    display: inline-block; width: 24%; vertical-align: top; text-align: center;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-td{
+    display: inline-block; width: 24%; vertical-align: top; 
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.msje { /*background: #f4f7e4;*/ 
+    background: #fff; 
+    border: 2px #669900 solid; 
+    font-size: .73; 
+    padding: 1.5em; 
+    text-align: justify; 
+    margin: 0 0 20px 0; 
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+.msje h2{ background: transparent; color: #669900; padding: 0 0 8px 0; font-size: 1.2em; margin: 0; text-align: center; /*font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;*/}
+.msje h3{ color: #888;}
+
+/*
+.msje { background: #fff; border: 2px #669900 solid; font-size: .8; padding: 2em; text-align: justify; width: 45%; float: left; margin: 0 0 20px 0;}
+.msje h2{ background: transparent; color: #669900; padding: 0 0 8px 0; font-size: 1.2em; margin: 0; text-align: center;}
+.msje h3{ color: #888;}
+*/
+
+
+.internal-content{
+    margin: 20px 10px 25px 25px;
+}
+
+.internal-content p{
+    text-align: justify;
+}
+
+.tabla-normales th, .tabla-normales td{
+    text-align: center;
+}
+hr.gris-line{
+    background-color: #eeeeee;
+    height: 1px;
+    margin: 35px 0 25px 0 !important;
+    border: none;
+}
+.prono img{
+
+}
+
+.prono-detalle-ver img{
+    float: right;
+}
+.prono-detalle-ver h4{
+    width: 200px;
+    display: block;
+    font-size: 2em;
+}
+
+.prono-detalle-hor{
+    text-align: center;
+}
+.prono-detalle-hor img{
+
+}
+.prono-detalle-hor h4{
+    display: block;
+    font-size: 2em;
+}
+.prono-detalle-hor .bg-gris{
+    padding: 15px;
+    border-radius: 10px;
+}
+.prono-detalle-hor strong{
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+
+
+#map {
+    min-height: 280px;
+    position: relative;
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+#mapProno {
+    min-height: 480px;
+    position: relative;
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+
+
+/**/
+@media (min-width: 768px){
+
+    .bg-btn-home, .bg-btn-39, .bg-btn-62, .bg-btn-77, .bg-btn-98, .bg-btn-137, .bg-btn-aprendiendo{
+        background-repeat: no-repeat !important;
+        background-position: 50% 15px !important;
+        background-repeat: no-repeat !important;
+        min-width: 100px !important;
+        text-align: center !important;
+    }
+    .bg-btn-home{
+        background-image: url(../images_/ico-home.png) !important;
+    }
+    .bg-btn-39{
+        background-image: url(../images_/ico-tiempo-agua.png) !important;
+    }
+    .bg-btn-62{
+        background-image: url(../images_/ico-clima.png) !important;
+    }
+    .bg-btn-77{
+        background-image: url(../images_/ico-herramientas.png) !important;
+    }
+    .bg-btn-98{
+        background-image: url(../images_/ico-ciudadano.png) !important;
+    }
+    .bg-btn-137{
+        background-image: url(../images_/ico-senamhi.png) !important;
+    }
+    .bg-btn-aprendiendo{
+        background-image: url(../images_/ico-empleo.png) !important;
+    }
+}
+
+
+
+@media (max-width: 768px){
+
+    .cabecera-izq{
+        text-align: center; padding: 10px 0;
+    }
+    .cabecera-der{
+
+        display: none;
+    }
+    .cabecera{
+        text-align: center;
+    }
+    .cabecera{
+        padding: 10px 0;
+    }
+    .cabecera-trans{
+        display: none;
+    }
+    .list-group-menu{
+        display: none;
+    }
+    .slider .info{
+        display: block;
+    }
+    .slider-bg{
+        background-color: #000;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-origin: content-box;
+        text-align: right;
+    }
+}
+
+
+
+
+.form-control {
+    background-color: #ddd !important;
+
+}
+
+
+
+.videos-home iframe{
+    margin: 15px 0;
+}
+
+
+.videos-home-bg{
+    background: #CAE6F3; padding: 30px 0 25px 0;
+}
+
+/*** web internas  ***/
+
+.cont-interior-001{
+    
+}
+
+
+/*** fin web internas  ***/
+
+
+
+/*** web SEA  ***/
+.box-bg-verde{
+    background: #33AC2D;
+    border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    text-align: center !important;
+    color: #fff;
+}
+.box-bg-amarillo{
+    background: #FFF000;
+    border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    text-align: center !important;
+    color: #000;
+}
+.box-bg-naranja{
+    background: #FFAD00;
+    border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    text-align: center !important;
+    color: #fff;
+}
+.box-bg-rojo{
+    background: #F81F14;
+    border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    text-align: center !important;
+    color: #fff;
+}
+.box-sea-pronostico{
+    background: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #ddd;
+    background: url('../images_/bg-prono-sea-anaranjado.png')top right repeat-y;
+    margin-top: 15px;
+}
+.box-sea-leyenda{
+    background: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin: 8px 0;
+    padding-left: 20px;
+}
+.box-sea-leyenda-verd{
+    border: 1px solid #33AC2D;
+    background: url('../images_/bg-prono-sea-verde.png')top left repeat-y;
+
+}
+.box-sea-leyenda-amar{
+    border: 1px solid #FFF000;
+    background: url('../images_/bg-prono-sea-amarillo.png')top left repeat-y;
+}
+.box-sea-leyenda-nara{
+    border: 1px solid #FFAD00;
+    background: url('../images_/bg-prono-sea-anaranjado.png')top left repeat-y;
+}
+.box-sea-leyenda-rojo{
+    border: 1px solid #F81F14;
+    background: url('../images_/bg-prono-sea-rojo.png')top left repeat-y;
+}
+.box-sea-bg {
+    font-weight: bold;
+    background: #F3F3F3;
+    text-align: center !important;
+}
+.box-alto {
+    display: table;
+    min-height: 90px;
+    line-height: 1.5em;
+}
+.box-alto-prono {
+    display: table;
+    min-height: 60px;
+    line-height: 1.5em;
+}
+.box-vcenter {
+    display: table-cell;
+    vertical-align: middle;
+}
+.box-hcenter{
+    text-align: center !important;
+}
+.sea h2, .sea h4, .sea h5{
+    text-align: center !important;
+}
+
+/*** fin web SEA  ***/
